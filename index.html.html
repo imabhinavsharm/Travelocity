@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="./travel.css">
+
+  <title>Wander wisely with cheap hotels.</title>
+  <link rel="icon" href="./download-removebg-preview.png" type="image/x-icon">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light nav-desk " style="background-color:#0a438b;">
+    <!-- Image and text -->
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: #fff;">
+          <img src="./download-removebg-preview.png" alt="" width="30" height="24"
+            class="d-inline-block align-top">
+          travelocity
+        </a>
+      </div>
+    </nav>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+          aria-expanded="false" style="background-color:#0a438b;">
+          More travel
+        </button>
+        <ul class="dropdown-menu drop-ul" aria-labelledby="btnGroupDrop1 ">
+          <li><a class="dropdown-item" href="index.html" style="color: #505c66;"><i class="fa fa-gift drop-ul-li"
+                aria-hidden="true"></i>Packages</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-building drop-ul-li"
+                aria-hidden="true"></i>Hotels</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-car drop-ul-li"
+                aria-hidden="true"></i>Cars</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-plane drop-ul-li "
+                aria-hidden="true"></i>Flights</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-ship drop-ul-li"
+                aria-hidden="true"></i>Cruises</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-laptop drop-ul-li"
+                aria-hidden="true"></i>Things to do</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;">Trips for me</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;">Discover</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-home drop-ul-li"
+                aria-hidden="true"></i>Vacation rentels</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;">Travels Deals</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;">Get inspired</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="nan-side">
+      <div class="collapse navbar-collapse " id="navbarNav">
+        <ul class="navbar-nav">
+          <div id="google_translate_element"></div>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: #fff;">Español</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #fff;">List your property</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #fff;">Support</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #fff;">Trips</a>
+          </li>
+          <li class="nav-item">
+            <div class="container-fluid">
+              <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                style="background-color:#0a438b;">
+                <span style="color: #fff;">Sign in<span>
+
+              </button>
+
+              <!-- modal -->
+
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title modal-head" id="exampleModalLabel">Members can access discounts and special
+                        features</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="d-grid gap-2 col-10 mx-auto">
+                      <button class="btn" type="button" style="background-color:#0a438b;"><span
+                          style="color: white;">Sign in</span></button>
+
+                    </div>
+                    <div class="mo-con">
+                      <h6>Create a free account</h6>
+                    </div>
+
+                    <div class="modal-body" style="color: #505c66;">
+                      List of favorites
+                    </div>
+                    <hr>
+                    <div class="modal-body" style="color: #505c66;">
+                      Feedback
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-light nav-mob " style="background-color:#0a438b;">
+    <!-- Image and text -->
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" style="color: #fff;">
+          <img src="./download-removebg-preview.png" alt="" width="20" height="24"
+            class="d-inline-block align-top">
+          travelocity
+        </a>
+      </div>
+    </nav>
+    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+
+      <div class="btn-group" role="group">
+        <button id="btnGroupDrop1" type="button" class="btn" data-bs-toggle="dropdown"
+          aria-expanded="false" style="background-color:#0a438b;">
+          <i class="fa fa-search drop-ul-li" style="color: #fff;" aria-hidden="true"></i>
+        </button>
+        <ul class="dropdown-menu drop-ul" aria-labelledby="btnGroupDrop1 ">
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-gift drop-ul-li"
+                aria-hidden="true"></i>Packages</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-building drop-ul-li"
+                aria-hidden="true"></i>Hotels</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-car drop-ul-li"
+                aria-hidden="true"></i>Cars</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-plane drop-ul-li "
+                aria-hidden="true"></i>Flights</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-ship drop-ul-li"
+                aria-hidden="true"></i>Cruises</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-laptop drop-ul-li"
+                aria-hidden="true"></i>Things to do</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;">Trips for me</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;">Discover</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;"><i class="fa fa-home drop-ul-li"
+                aria-hidden="true"></i>Vacation rentels</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;">Travels Deals</a></li>
+          <li><a class="dropdown-item" href="#" style="color: #505c66;">Get inspired</a></li>
+        </ul>
+      </div>
+    </div>
+    <i class="fa fa-shopping-bag drop-ul-li" style="color: #fff; padding-right: 30px;" aria-hidden="true"></i>
+    
+    <i class="fa fa-user drop-ul-li" style="color: #fff; padding-right: 60px;" aria-hidden="true"></i>
+
+ 
+
+    </div>
+  </nav>
+
+
+  <div class="con">
+    <div class="con-1">
+      <!-- <div class="container f-nav">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-log-ul">
+                <li class="nav-item">
+                  <i class="fa fa-building nav-ima" aria-hidden="true"></i> 
+                  <a class="nav-link" aria-current="page" href="#">Hotels</a>
+                </li>
+                <li class="nav-item">
+                  <i class="fa fa-plane nav-ima" aria-hidden="true"></i> 
+                  <a class="nav-link" aria-current="page" href="#">Flights</a>
+                </li>
+                <li class="nav-item">
+                  <i class="fa fa-car nav-ima" aria-hidden="true"></i> 
+                  <a class="nav-link" aria-current="page" href="#">Cars</a>
+                </li>
+                <li class="nav-item">
+                  <i class="fa fa-briefcase nav-ima" aria-hidden="true"></i> 
+                  <a class="nav-link" aria-current="page" href="#">Packages</a>
+                </li>
+                <li class="nav-item">
+                  <i class="fa fa-camera-retro nav-ima" aria-hidden="true"></i> 
+                  <a class="nav-link" aria-current="page" href="#">Things to do</a>
+                </li>
+                <li class="nav-item">
+                  <i class="fa fa-ship nav-ima" aria-hidden="true"></i> 
+                  <a class="nav-link" aria-current="page" href="#">Crusies</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+      </div> -->
+
+      <div class="tabs">
+        <div class="ico">
+          <div class="tab-header">
+            <div class="active">
+
+              <i class="fa fa-building"></i> Hotels
+            </div>
+            <div>
+              <i class="fa fa-plane"></i> Flights
+            </div>
+            <div>
+              <i class="fa fa-car"></i> cars
+            </div>
+            <div>
+              <i class="fa fa-gift"></i> Packages
+            </div>
+            <div>
+              <i class="fa fa-camera"></i> Things to do
+            </div>
+            <div>
+              <i class="fa fa-ship"></i> Crusies
+            </div>
+          </div>
+
+          <div class="tab-indicator"></div>
+        </div>
+        <div class="tab-body">
+
+          <div class="active">
+            <form style="margin-top: 20px;">
+              <section class="section-1">
+                <input type="text" class="form-control section-1_1" placeholder="Going to" aria-label="Username">
+
+                <section class="date">
+                  <input type="date" class="form-control " placeholder="check in" aria-label="Username"
+                    style="width: 150px; height: 50px; margin-left: 20px; border-radius: 10px;">
+                  <input type="date" class="form-control" placeholder="Check out" aria-label="Username"
+                    style="width: 150px; height: 50px; margin-left: 20px; border-radius: 10px;">
+                </section>
+
+                <input type="number" class="form-control section-1_2" placeholder="Travelers" aria-label="Username">
+              </section>
+              <section class="section-2">
+                <input type="checkbox">
+                <label for="checkbox"> Add a flight</label>
+                <input type="checkbox" style="margin-left: 50px;">
+                <label for="checkbox"> Add car</label>
+              </section>
+            </form>
+            <button type="button" class="btn btn-lg button-1">search</button>
+          </div>
+          <!-- plane on the navi -->
+          <div>
+            <section class="section-3">
+              <section class="section-3_1">
+                <section>
+                  <button type="button" class="btn btn-light" style="color: #0a438b;">Round trip</button>
+
+                  <button type="button" class="btn btn-2">One way</button>
+                  <button type="button" class="btn btn-2">Multi-city</button>
+                </section>
+                <!-- Example single danger button -->
+                
+                 <section style="display: flex;">
+                  <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Economy
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Economy</a></li>
+                    <li><a class="dropdown-item" href="#">Prenium Economy</a></li>
+                    <li><a class="dropdown-item" href="#">Busniess class</a></li>
+                    <li><a class="dropdown-item" href="#">First Class</a></li>
+                  </ul>
+                  <!-- Example single danger button -->
+
+                  <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    1 Traveler
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Economy</a></li>
+                    <li><a class="dropdown-item" href="#">Prenium Economy</a></li>
+                    <li><a class="dropdown-item" href="#">Busniess class</a></li>
+                    <li><a class="dropdown-item" href="#">First Class</a></li>
+                  </ul>
+                </section>
+              </section>
+            </section>
+
+
+            <form style="margin-top: 20px;">
+              <section class="section-1">
+                <input type="text" class="form-control section-1_1 " placeholder="Leaving from" aria-label="Username"
+                >
+                <span class="input-group-text arrow" style="background-color: #fff;border-radius: 360px;">
+                  <i class="fa fa-arrows-h"></i>
+
+                </span>
+                <input type="text" class="form-control fli-going" placeholder="Going to" aria-label="Username"
+                  >
+                  <section class="date">
+                <input type="date" class="form-control" placeholder="Check in" aria-label="Username"
+                  style="width: 150px; height: 50px; margin-left: 20px; border-radius: 10px;">
+                <input type="date" class="form-control" placeholder="Check out" aria-label="Username"
+                  style="width: 150px; height: 50px; margin-left: 20px; border-radius: 10px;">
+              </section>
+              </section>
+              <section class="section-2">
+                <input type="checkbox">
+                <label for="checkbox"> Add a place to stay</label>
+                <input type="checkbox" style="margin-left: 50px;">
+                <label for="checkbox"> Add car</label>
+              </section>
+            </form>
+            <button type="button" class="btn btn-lg button-1"
+             >search</button>
+          </div>
+          <!-- car on the navi -->
+          <div>
+
+            <section class="section-3">
+              
+              <button type="button" class="btn btn-light" style="color: #0a438b;">Rentels Cars</button>
+
+              <button type="button" class="btn btn-2">Airport Transportation</button>
+            </section>
+            <form style="margin-top: 20px;">
+              <section class="section-1">
+                <input type="text" class="form-control car-l" placeholder="Leaving from" aria-label="Username"
+                  >
+                  
+                <input type="text" class="form-control car-g" placeholder="Going to" aria-label="Username"
+                  style="width: 550px; height: 50px;margin-left: 20px; border-radius: 10px;">
+              </section>
+              <section class="section-1 car-sec">
+                <section class="car-date">
+                <input type="date" class="form-control car-date-1" placeholder="Check in" aria-label="Username"
+                 >
+                <input type="date" class="form-control car-date-1" placeholder="Check out" aria-label="Username"
+                  style="margin-left: 20px;">
+                  </section>
+                  <section class="car-date">
+                <input type="time" class="form-control car-date-1 car-date-1_1" placeholder="Check in" aria-label="Username"
+                  >
+                <input type="time" class="form-control car-date-1" placeholder="Check out" aria-label="Username"
+                  style=" margin-left: 20px;">
+                  </section>
+              </section>
+              <section class="section-2">
+                <input type="checkbox">
+                <label for="checkbox"> Include AARP members rate</label>
+            </form>
+            <button type="button" class="btn btn-lg button-1"
+              >search</button>
+          </div>
+          <!-- Packages navi -->
+          <div>
+            <section class="section-3">
+              <section class=" section-3_1_1" >
+              
+              <button type="button" class="btn btn-3">Hotel added</button>
+
+              <button type="button" class="btn btn-3">Flight add</button>
+              <button type="button" class="btn btn-2" style="border-radius: 20px;">Add a car</button>
+              
+
+              <!-- Example single danger button -->
+
+              <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Economy
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Economy</a></li>
+                <li><a class="dropdown-item" href="#">Prenium Economy</a></li>
+                <li><a class="dropdown-item" href="#">Busniess class</a></li>
+                <li><a class="dropdown-item" href="#">First Class</a></li>
+              </ul>
+              <!-- Example single danger button -->
+
+              <button type="button" class="btn btn-drop dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                1room, 2travelers
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Economy</a></li>
+                <li><a class="dropdown-item" href="#">Prenium Economy</a></li>
+                <li><a class="dropdown-item" href="#">Busniess class</a></li>
+                <li><a class="dropdown-item" href="#">First Class</a></li>
+              </ul>
+            </section>
+            </section>
+
+
+            <form style="margin-top: 20px;">
+              <section class="section-1">
+                <input type="text" class="form-control section-1_1" placeholder="Leaving from" aria-label="Username"
+                  >
+                <span class="input-group-text arrow" style="background-color: #fff;border-radius: 360px;">
+                  <i class="fa fa-arrows-h"></i>
+
+                </span>
+                <input type="text" class="form-control fli-going" placeholder="Going to" aria-label="Username"
+                 >
+                 <section class="date">
+                <input type="date" class="form-control date-pack" placeholder="Check in" aria-label="Username"
+                 >
+                <input type="date" class="form-control date-pack" placeholder="Check out" aria-label="Username"
+                  >
+                  </section>
+              </section>
+              <section class="section-2">
+                <input type="checkbox">
+                <label for="checkbox">I only need accommodations for part of my trip</label>
+
+              </section>
+            </form>
+            <button type="button" class="btn btn-lg button-1"
+              >search</button>
+          </div>
+          <!-- things to do navi -->
+          <div>
+            <section class="section-1 " style="margin-top: 20px;">
+              <input type="text" class="form-control section-1_2 navi-leaving" placeholder="Things to do in" aria-label="Username"
+               >
+              <section class="date">
+              <input type="date" class="form-control navi-date" placeholder="Check in" aria-label="Username"
+                >
+              <input type="date" class="form-control navi-date" placeholder="Check out" aria-label="Username"
+               >
+          </section>
+            </section>
+
+            </form>
+            <button type="button" class="btn btn-lg button-1"
+             >search</button>
+          </div>
+          <!-- Cruises navi  -->
+          <div>
+            <form style="margin-top: 20px;">
+              <section class="section-1">
+                <input type="text" class="form-control section-1_2" placeholder="Leaving from" aria-label="Username"
+                  >
+                <input type="text" class="form-control section-1_2" placeholder="Going to" aria-label="Username"
+                  >
+              </section>
+              <section class="section-1 " style="margin-top: 20px;">
+                <input type="text" class="form-control section-1_2" placeholder="Leaving from" aria-label="Username"
+                  >
+                <input type="text" class="form-control section-1_2" placeholder="Going to" aria-label="Username"
+                  >
+              </section>
+
+            </form>
+            <button type="button" class="btn btn-lg button-1"
+              >search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="feature">Featured travel</h2>
+  <div class="container-ima-1">
+    <div class="card father">
+      <img src="./father-656734_640.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5>Travel locally</h5>
+        <p class="card-text">Escapes near home you can take with the entire family.</p>
+      </div>
+    </div>
+    <div class="container-in-ima-1">
+      <div class="card cards-ima-1">
+        <img src="./bed-2453293_640.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Plans up in the air?</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+
+        </div>
+      </div>
+      <div class="card cards-ima-1" style="margin-top: 10px;">
+        <img src="./passport-2733068_640.jpg" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">It's okay to wing it</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2 class="spotlight">In the spot light</h2>
+  <div class="lighthouse">
+    <div class="card card-li">
+      <div class="card-body">
+        <h5 class="card-text">Wander wisely with great deals<br>Traveling now or planing a trip for later? Let us help
+        </h5>
+      </div>
+    </div>
+
+    <div class="card cards-ima-2">
+      <div class="card-body">
+        <h2 class="card-text">Wander wisely with the app</h2>
+      </div>
+      <button type="button" class="btn btn-warning">getapp</button>
+    </div>
+  </div>
+
+  <div class="covid">
+    <div class="ques">
+      <i class="fa fa-question-circle" aria-hidden="true"></i>
+    </div>
+    <div class="co-con">
+      <h6>Has covid change your travel plans ?</h6>
+      <p>Use credits or coupons, cancel your trip, check refund status, and more.</p>
+      <p><a href="#">Get started</a></p>
+
+    </div>
+  </div>
+
+  <h2 class="family">Family travel tips + inspiration</h2>
+  <!-- three cards -->
+  <div class="cards-3">
+
+    <div class="card card-3-1">
+      <div class="card-body">
+        <h5 class="card-title">Learn a new skill on Vacation with kids</h5>
+      </div>
+    </div>
+    <div class="card card-3-2">
+      <div class="card-body">
+        <h5 class="card-title">10 roads trips your family will love</h5>
+      </div>
+    </div>
+    <div class="card card-3-3">
+      <div class="card-body">
+        <h5 class="card-title">How to travel with another family</h5>
+      </div>
+    </div>
+  </div>
+  <div class="container think">
+    <h3>Thinking about future travel?<br>
+      We are here to help you now and later
+    </h3>
+  </div>
+
+
+  <div class="card mb-3 mob">
+    <div class="row g-0">
+      <div class="col-md-4 mobpic">
+        <img src="./iphone-410311_640.jpg" alt="..." style="border-radius: 10px;">
+      </div>
+
+      <div class="col-md-8 mobcone">
+        <div class="card-body mobbody">
+          <h3 class="card-title">Wander Wisely with the Travelocity app</h3>
+          <img src="./qr-code-148732_1280.png" alt="...">
+
+        </div>
+        <ul>
+          <li>Get helpful alerts about flight status and gate numbers.</li>
+          <li>Easily contact your hotel by messaging them right in the app.</li>
+          <li>Access all your travel details, even when offline.
+          </li>
+
+        </ul>
+        <div class="mobdown">
+
+          <h4 style="margin-left: 20px;">Text yourself a download link</h4>
+          <div class="btn-group">
+            <button class="btn btn-sm dropdown-toggle btn-outline-primary" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="border-radius: 10px; width: 120px; height: 40px; margin-left: 20px; ">
+              Country code
+            </button>
+            <ul class="dropdown-menu">
+              <li>Get helpful alerts about flight status and gate numbers.</li>
+              <li>Easily contact your hotel by messaging them right in the app.</li>
+              <li>Access all your travel details, even when offline.
+              </li>
+            </ul>
+            <button class="btn btn-sm btn-outline-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="border-radius: 10px; width: 120px; height: 40px; margin-left: 20px; ">
+              Phone number
+            </button>
+
+            <button class="btn btn-sm btn-primary" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+              style="border-radius: 10px; width: 120px; height: 40px; margin-left: 20px; ">
+              Get the app
+            </button>
+
+
+          </div>
+          <p class="card-text" style="margin-top: 10px; margin-left: 20px;">By providing your number, you agree to
+            receive a one-time automated text message with a link to get the app. Standard text message rates may apply.
+          </p>
+        </div>
+        <button type="button" class="btn btn-primary getapp"> Get the app </button>
+
+      </div>
+    </div>
+  </div>
+
+
+  <h2 class="ipdrop">Destination ideas to plan your next trip</h2>
+
+  <div class="drop">
+    <div class="drop-1-1">
+
+      <select class="form-select" aria-label="Default select example" style="border-radius: 10px;">
+        <option selected>Hotels</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <div class="dropm">
+        <select class="form-select" aria-label="Default select example" style="margin-left: 20px; border-radius: 10px;">
+          <option selected>Flights</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+
+    </div>
+    <div class="drop-1-1">
+      <select class="form-select" aria-label="Default select example" style="border-radius: 10px;">
+        <option selected>Vacation Packages</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <div class="dropm">
+        <select class="form-select" aria-label="Default select example" style="margin-left: 20px;border-radius: 10px;">
+          <option selected>Cars</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </div>
+    <div class="drop-1-1">
+      <select class="form-select" aria-label="Default select example" style="border-radius: 10px;border-radius: 10px;">
+        <option selected>Crusies</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <div class="dropm">
+        <select class="form-select" aria-label="Default select example" style="margin-left: 20px;border-radius: 10px;">
+          <option selected>All Inclusive resorts</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </div>
+    <div class="drop-1-1 drop-2-1">
+      <select class="form-select" aria-label="Default select example" style="border-radius: 10px;">
+        <option selected>Travel deals</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+    </div>
+  </div>
+  <footer>
+    <div class="navfoot">
+      <div class="navul">
+        <ul>
+          <li><a href="#"> About Travelocity </a></li>
+          <li><a href="#"> Customer Support </a></li>
+          <li><a href="#"> Press Room</a></li>
+          <li><a href="#"> Advertising </a></li>
+          <li><a href="#"> Jobs </a></li>
+          <li><a href="#"> TV Ads </a></li>
+          <li><a href="#">Privacy Policy </a> </li>
+          <li><a href="#">Terms of Us</a></li>
+          <li><a href="#"> Site Map</a> </li>
+          <li><a href="#"> Accessibilit </a> </li>
+          <li><a href="#"> Support</a></li>
+          <li><a href="#">Do Not Sell My Personal Information</a> </li>
+        </ul>
+      </div>
+      <div class="foot-con">
+        <p>© 2021 Travelscape LLC, An Expedia Group Company. All rights reserved. Travelocity, the Stars Design, and The
+          Roaming Gnome Design are trademarks of Travelscape LLC. Use of this Web site constitutes acceptance of the
+          Travelocity User Agreement and Privacy Policy. CST# 2083930-50</p>
+      </div>
+      <div class="fotimg">
+        <img src="./images-removebg-preview.png" class="img-fluid" alt="...">
+        <!-- <img src="../photos/images-removebg-preview.png" alt=""> -->
+      </div>
+    </div>
+  </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script>let tabHeader = document.getElementsByClassName("tab-header")[0];
+    let tabIndicator = document.getElementsByClassName("tab-indicator")[0];
+    let tabBody = document.getElementsByClassName("tab-body")[0];
+
+    let tabsPane = tabHeader.getElementsByTagName("div");
+
+    for (let i = 0; i < tabsPane.length; i++) {
+      tabsPane[i].addEventListener("click", function () {
+        tabHeader.getElementsByClassName("active")[0].classList.remove("active");
+        tabsPane[i].classList.add("active");
+        tabBody.getElementsByClassName("active")[0].classList.remove("active");
+        tabBody.getElementsByTagName("div")[i].classList.add("active");
+
+        tabIndicator.style.left = `calc(calc(100% / 6) * ${i})`;
+      });
+    }
+
+  </script>
+  <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>

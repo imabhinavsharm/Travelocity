@@ -1,0 +1,658 @@
+.nan-side{
+    padding-left: 550px;
+   
+}
+body{
+  background-color:#c5ccd6;
+}
+.drop-ul{
+    width: 300px;
+    border-radius:10px;
+}
+.drop-ul-li{
+    padding: 10px;
+    color:grey;
+}
+.nav-con{
+    color: white;
+}
+
+.modal-head{
+    font-weight: 700;
+}
+.mo-con{
+    margin-top: 20px;
+    color: #0a438b;
+    text-align: center;
+}
+.con-1{
+    position: relative;
+    width: 100%;
+    height:85vh;
+    background-image: url("./sunset-2983614_1920.jpg");
+    background-position: center;
+   background-size: cover;
+   
+}
+/* .f-nav{
+margin-left:100px;
+    position:absolute;
+    margin-top: 20px;
+    width: 100%;
+    height: 360px;
+    background-color: #fff;
+    border-radius: 10px;
+} */
+.nav-ima{
+    margin-top: 20px;
+    color: #505c66;
+    padding-left: 100px;
+    font-size: 30px;
+}
+.nav-log-ul > li >a{
+    margin-left: 80px;
+    font-size: 20px;
+}
+/* section{
+    margin-top: 1000px;
+    width: 100%;
+    height: 800px;
+} */
+
+.tabs {
+  position:absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width:1200px;
+  height:400px;
+  background:#fff;
+  padding:20px 30px;
+  overflow:hidden;
+  border-radius:10px;
+  /* box-shadow:5px 10px 5px #ccc; */
+}
+.tabs .tab-header {
+  height:60px;
+  display:flex;
+  align-items:center;
+}
+.tabs .tab-header > div {
+  width:calc(100% / 6);
+  text-align:center;
+  color:#888;
+  font-weight:600;
+  cursor:pointer;
+  font-size:14px;
+  text-transform:uppercase;
+  outline:none;
+ /* padding-left: 500px; */
+}
+.tabs .tab-header > div > i {
+  display:block;
+  margin-bottom:5px;
+  /* margin-left: 20px; */
+}
+.tabs .tab-header > div.active {
+  color:#0a438b;
+}
+.tabs .tab-indicator {
+  position:relative;
+  width:calc(100% / 6);
+  height:3px;
+  background:#0a438b;
+  left:0px;
+  border-radius:5px;
+  transition:all 500ms ease-in-out;
+}
+.tabs .tab-body {
+  position:relative;
+  height:calc(100% - 60px);
+  padding:10px 5px;
+}
+.tabs .tab-body > div {
+  position:absolute;
+  top:-200%;
+  opacity:0;
+  transform:scale(0.9);
+  transition:opacity 500ms ease-in-out 0ms,
+    transform 500ms ease-in-out 0ms;
+}
+.tabs .tab-body > div.active {
+  top:0px;
+  opacity:1;
+  transform:scale(1);
+}
+.section-1{
+  display: flex;
+}
+.section-1_1{
+  width: 450px; 
+  height: 50px; 
+  border-radius: 10px;
+}
+.section-1_2{
+  margin-left: 20px;
+  width: 300px;
+  border-radius: 10px;
+}
+.date{
+  display: flex;
+}
+.section-2,.section-3{
+  margin-top: 20px;
+}
+.button-1{
+  background-color: #0a438b;
+   color: #fff;
+    width: 200px; 
+    margin-left: 450px; 
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.fli-going{
+  width: 300px; height: 50px; border-radius: 10px;
+  
+}
+.car-l{
+  width: 550px; height: 50px; border-radius: 10px;
+}
+.car-date{
+  display: flex;
+}
+.car-date-1{
+  width: 265px; height: 50px;  border-radius: 10px;
+}
+.car-date-1_1{
+  margin-left:20px ;
+}
+.btn-2:hover{
+  color: #0a438b;
+  background-color:honeydew;
+}
+.btn-drop{
+  float: right;
+  color: #0a438b;
+  margin-left: 20px;
+}
+.car-sec{
+  margin-top: 20px;
+}
+.date-pack{
+  width: 150px; height: 50px; margin-left: 20px; border-radius: 10px;
+}
+.navi-leaving{
+  width: 600px;
+  height: 50px;
+  border-radius: 10px;
+}
+.navi-date{
+  width: 220px; height: 50px; margin-left: 20px; border-radius: 10px;
+}
+
+.btn-3{
+  color: #fff;
+  background-color: #0a438b;
+   border-radius: 20px;
+}
+.feature{
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.container-ima-1{
+  margin-top: 10px;
+  position: relative;
+  left:80px;
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 350px;
+  border-radius: 10px;
+  
+}
+.father{
+  width: 50rem;
+}
+.card-img-top{
+height: 250px;width:50rem;}
+.cards-ima-1{
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  width: 25rem;
+   height: 170px;
+}
+.cards-ima-1 img{
+  width:100px; height:169px;
+}
+.spotlight{
+  margin-top: 80px; margin-left: 80px;}
+.lighthouse{
+  display: flex;
+flex-wrap: wrap;
+margin-left: 80px;
+}
+
+.card-li{
+
+  background-image: url("./sunset-2983614_1920.jpg");
+  width: 900px;
+  height: 250px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-li h5{
+  padding-top: 150px;
+  color: #fff;
+}
+
+.cards-ima-2{
+  background-image: url("./beach-1839922_640.jpg");
+  height:250px;
+  width: 280px;
+  background-size: cover;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.cards-ima-2 button{
+  width: 100px;
+  margin-left: 80px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.cards-ima-2 h2{
+  color: #fff;
+  text-align: center;
+}
+
+.covid{
+  margin-left: 80px;
+  width: 1200px;
+  height: 120px;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  display: flex;
+}
+.ques{
+  position: relative;
+  margin-left: 30px;
+  top: 30px;
+width: 50px;
+height: 60px;
+background-color:#c5ccd6;
+padding-top: 5px;
+text-align: center;
+font-size: 30px;
+border-radius: 100px;
+}
+.family{
+  margin-top: 40px;
+   margin-left: 80px
+}
+.co-con{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.cards-3{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin-left: 80px;
+  width: 1200px;
+  
+}
+.cards-3 h5{
+  color: #fff;
+  padding-top: 130px;
+  margin-left: 10px;
+}
+.card-3-1{
+  background-image: url("./girl-791240_640.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  width:380px; 
+  height: 200px;
+}
+.card-3-2{
+  background-image: url("./road-5990128_640.jpg");
+  background-size: cover;
+  margin-left: 25px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  width:380px; 
+  height: 200px;
+  
+}
+.card-3-3{
+  background-image: url("./panorama-4610864_640.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  width:380px; 
+  height: 200px;
+  margin-left: 25px;
+  
+}
+.think{
+  margin-top: 40px;
+  height: 120px;
+  width: 1000px;
+  background-image: url("./depositphotos_20437641-stock-photo-view-of-bogliasco.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+}
+.think h3{
+  color: #fff;
+  margin-left: 50px;
+padding-top: 30px;
+}
+.mob{
+  width: 1200px;
+  margin-top: 60px;
+  margin-left: 80px;
+  border-radius: 10px;
+
+}
+.mobpic img{
+  width:400px;
+   height:320px;
+}
+.mobbody img{
+  width:150px;
+   height:150px;
+    float: right;
+}
+.getapp{
+  display: none;
+}
+.ipdrop{
+  margin-top: 40px;
+   margin-left: 80px;
+}
+.drop{
+  width: 1200px;
+  margin-left: 80px;
+}
+
+.drop-1-1{
+  width: 600px;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  height: 50px;
+  margin-top: 10px;
+  
+}
+.dropm{
+  width: 600px;
+}
+.drop-2-1{
+  width: 1220px;
+}
+.navfoot{
+  
+  margin-top: 50px;
+ 
+}
+.navfoot ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+ 
+  
+}
+.navfoot ul li{
+ 
+  font-size: 12px;
+  padding-left: 10px;
+}
+.navfoot ul li a{
+text-decoration: none;
+color: #505c66;
+}
+.navfoot ul li a:hover{
+  color:#0a438b;
+  text-decoration-line: underline;
+
+}
+.foot-con{
+  margin-top: 30px;
+  margin-left: 450px;
+  width: 450px;
+  font-size: 12px;
+  text-align: center;
+  color: #505c66;
+}
+.fotimg{
+  margin-left: 410px;
+}
+footer{
+  height: 400px;
+}
+.nav-mob{
+  display: none;
+}
+
+/* ============================================================ */
+@media(max-width:575px) {
+   .navul{
+    line-height: 30px;
+    width:90%;
+    height: auto;
+    margin: auto;
+    
+ 
+  } 
+  .foot-con ,.fotimg ,.drop{
+    width:90%;
+    height: auto;
+    margin: auto;
+  }
+  .drop-1-1{
+margin-top: 50px;
+width: 90%;
+flex-direction: row;
+  }
+  .dropm{
+    margin-left: -19px;
+    width:100%;
+    margin-top: 10px;
+  }
+  .ipdrop,.family,.spotlight,.feature{
+    padding-top: 30px;
+    height: auto;
+    font-size: 30px;
+    width: 90%;
+    font-weight: 1200;
+    margin: auto;
+  }
+  footer{
+    height: 600px;
+  }
+  .mob{
+    top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+ 
+    width: 90%;
+    height: auto;
+    margin: auto;
+   
+  }
+  .mobpic img{
+    width: 100%;
+  }
+  .mobcone{
+    width: 100%;
+  }
+  .mobbody img,.mobdown,.think{
+    display: none;
+  }
+  .getapp{
+    display: block;
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: #0a438b
+  }
+  .cards-3{
+    margin: auto;
+    flex-direction: column;
+  }
+  .card-3-1,.card-3-2,.card-3-3{
+    margin-left: 15px;
+    width:360px;
+    background-size: cover;
+    height: auto;
+    /* margin: auto; */
+    margin-top: 20px;
+  }
+  .covid{
+    width:90%;
+    height: 180px;
+    margin: auto;
+    margin-top: 20px;
+
+  }
+  .co-con{
+    margin-left: 20px;
+  }
+  .lighthouse{
+    margin-left: 0px;
+  }
+  .card-li,.cards-ima-2{
+ width: 90%;
+ height: 300px;
+ margin: auto;
+  }
+  .cards-ima-2{
+    margin-top: 20px;
+  
+  }
+  .container-ima-1{
+    flex-direction: column;
+    height: auto;
+   left: 0px;
+    width:100%;
+    margin: auto;
+    
+  }
+  .cards-ima-1{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .father,.card-img-top{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    
+  }
+  .father img{
+    width: 100%;
+  }
+  .tabs{
+    width: 100%;
+height: 600px;
+margin: auto;
+margin-top: 60px;
+
+  }
+  .ico{
+    overflow-x: scroll;
+  }
+  .tab-header{
+    overflow-x: scroll;
+    width: 550px;
+  }
+  .tabs .tab-indicator{
+    width: 100px;
+  }
+  .section-1{
+    flex-direction: column;
+    height: auto;
+  }
+  .section-1_1{
+    margin-top: 30px;
+    width: 320px;
+  }
+  .date{
+    margin-left:-20px;
+    margin-top: 20px;
+    display: flex;
+  }
+  .section-1_2{
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 0px;
+  width: 320px;
+  border-radius: 10px;
+  }
+  .button-1{
+    height: 50px;
+    width: 320px;
+    margin: auto;
+    margin-left: 0;
+    padding-right: 50px;
+    margin-top: 60px;
+  }
+  .section-3_1{
+    
+    display: flex;
+    flex-direction: column;
+  }
+  .arrow{
+    display: none;
+  }
+  .fli-going{
+    width: 320px; 
+    margin-top: 20px;
+  }
+  /* for overflow in x direction in body */
+  html,body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .car-l{
+    width: 320px;
+  }
+  .car-g{
+    display: none;
+  }
+  .car-date-1{
+    width: 150px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .date-pack,.navi-date{
+    width: 150px;
+  }
+  .nav-desk{
+    display: none;
+  }
+  .nav-mob{
+    display: flex;
+    
+    width: 100%;
+    
+  }
+  .nan-side-mob{
+    margin-left: 5px;
+
+  }
+  .drop-ul{
+    width: 100vw;
+    /* margin-left: 10px; */
+  }
+ 
+  
+}
